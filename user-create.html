@@ -251,7 +251,8 @@
                                         </div>
                                         <div class="form-group col-3">
                                             <label>Choose a Role</label>
-                                            <select name="roleId" id="roleDropdown" class="custom-select" required="required">
+                                            <select name="roleId" id="roleDropdown" class="custom-select"
+                                                    required="required">
                                                 <option value="none" selected disabled>Select</option>
                                                 <option value="admin">Admin</option>
                                                 <option value="manager">Manager</option>
@@ -261,7 +262,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="form-group col-6">
-                                           <button class="btn btn-success float-lg-right" type="submit">Save</button>
+                                            <button class="btn btn-success float-lg-right" type="submit">Save</button>
                                         </div>
                                     </div>
                                 </form>
@@ -275,38 +276,39 @@
                             <!-- ============================================================== -->
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                                 <h2 class="pageheader-title">User List</h2>
-                                    <div class="card-body">
-                                        <table class="table table-striped">
-                                            <thead>
-                                            <tr>
-                                                <th scope="col">#</th>
-                                                <th scope="col">First</th>
-                                                <th scope="col">Last</th>
-                                                <th scope="col">Handle</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>Larry</td>
-                                                <td>the Bird</td>
-                                                <td>@twitter</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                <div class="card-body">
+                                    <table class="table table-striped">
+                                        <thead>
+                                        <tr>
+                                            <td>Name</td>
+                                            <td>Email(username)</td>
+                                            <td>Gender</td>
+                                            <td>Phone</td>
+                                            <td>Role</td>
+                                            <td>Action</td>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Craig Jark
+                                            </th>
+                                            <td>craig@cydeo.com</td>
+                                            <td>Male</td>
+                                            <td>2921234322</td>
+                                            <td>Employee</td>
+                                            <td>
+                                                <a href="#">
+                                                    <button class="btn btn-warning btn-sm">Update</button>
+                                                </a>
+                                                <a href="#">
+                                                    <button class="btn btn-danger btn-sm">Delete</button>
+                                                </a>
+
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
 
                             </div>
                             <!-- ============================================================== -->
